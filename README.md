@@ -10,22 +10,23 @@ Every React Component goes through three phases throughout its lifetime:
 ![image](https://user-images.githubusercontent.com/46521639/116803687-8651f080-ab37-11eb-84dd-c8f2a3428d5f.png)
 ![image](https://user-images.githubusercontent.com/46521639/116803695-97026680-ab37-11eb-8bea-30249b4b67f5.png)
 ![image](https://user-images.githubusercontent.com/46521639/116803701-a84b7300-ab37-11eb-8f60-29562cdee684.png)
-Mounting Phase
+
+-Mounting Phase
 In this phase, the instance of a component is created and inserted into the DOM.
 We mainly use the three methods. The three methods are called in the given order:
 •	constructor()
 •	render()
 •	componentDidMount()
-constructor()
+-constructor()
 The constructor() method is used to set up the initial state and class variables
 
-Updating Phase
+-Updating Phase
 In this phase, the component is updated whenever there is a change in the component's state.
 Method :-
 render( ):-
 The render() method is called whenever there is a change in the component's state.
 
-Unmounting Phase
+-Unmounting Phase
 In this phase, the component instance is removed from the DOM.
 componentWillUnmount()
 The componentWillUnmount() method is used to cleanup activities performed.
